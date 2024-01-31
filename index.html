@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cartoon Network</title>
+    <!--FAVICON -->
+    <link rel="shortcut icon" href="asset/cn-putih.png" type="image/x-icon">
+
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- SWIPER CSS -->
+    
+
+    <!-- my CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-transparent position-fixed w-100" id="navbar">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="asset/logo-cn (1).png" alt="Bootstrap" width="30">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item mx-2">
+                <a class="nav-link active" aria-current="page" href="#hero">HOME</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#layanan">PRODUCT</a>
+              </li>
+              <li class="nav-item mx-2">
+                <a class="nav-link" href="#fitur">FITUR</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">KONTAK</a>
+              </li>
+            </ul>
+
+            <div>
+              <a href="sign-up.html"><button class=" button-primary">Sign Up</button></a>
+              <a href="contact.html"> <button class=" button-secondary">Log In</button></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero section -->
+      <section id="hero">
+        <div class="container h-100">
+            <div class="row h-100" id="text">
+              <div class="col-md-6 hero-tagline my-auto">
+                <h1>Where Every Line Tells a Tale</h1>
+                <p>Cartoon Network, a powerhouse in the realm of animated entertainment, has captured the hearts and minds of audiences worldwide with its vibrant spectrum of imaginative and diverse cartoons.</p>
+                <button class="button-lg-primary">Find the Cartoon</button>
+                <a href=""><img src="asset/arrow-home.png" alt=""></a>
+            </div>
+            </div>
+        </div>
+        <img src="asset/powerpuff.svg" alt="" class="img-hero position-absolute end-0 bottom-0">
+        <img src="asset/Layer_x0020_1.png" alt="" class="aksen-img position-absolute h-100 top-0 start-0">
+      </section>
+
+      <!-- Layanan section -->
+      <section id="layanan">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center mt-5">
+              <h2>What We Produce?</h2>
+              <span class="sub-title">Cartoon network is here to be your entertainment</span>
+            </div>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-md-4 text-center">
+              <div class="card-layanan">
+                <div class="circle-icon position-relative mx-auto">
+                  <img src="asset/Game.png" alt="" class="position-absolute top-50 start-50 translate-middle">
+                </div>
+                <h3 class="mt-4">Game</h3>
+                <p class="mt-3">This dynamic gaming experience seamlessly blends cutting-edge graphics with immersive gameplay, transporting players to a meticulously crafted virtual universe.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+              <div class="card-layanan">
+                <div class="circle-icon position-relative mx-auto">
+                  <img src="asset/animation.png" alt="" class="position-absolute top-50 start-50 translate-middle">
+                </div>
+                <h3 class="mt-4">Animation</h3>
+                <p class="mt-3">a mesmerizing art form, breathes life into the static, transforming ideas and stories into a visually captivating spectacle.</p>
+              </div>
+            </div>
+
+            <div class="col-md-4 text-center">
+              <div class="card-layanan">
+                <div class="circle-icon position-relative mx-auto">
+                  <img src="asset/comic.png" alt="" class="position-absolute top-50 start-50 translate-middle">
+                </div>
+                <h3 class="mt-4">Comic</h3>
+                <p class="mt-3">Characters you've grown to love from the screen leap onto the pages, embarking on new adventures that expand their worlds beyond the television screen.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Search section -->
+      <section id="search" class="d-flex align-items-center">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 text-center">
+              <h2>Find Your Favorite</h2>
+              <p>Dive into a curated selection of content tailored to your preferences, seamlessly matching you with your favorite shows, movies, and games</p>
+            </div>
+
+            <div class="col-10 mt-5 mx-auto dd">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#jual" type="button" role="tab" aria-controls="home-tab-pane" aria-selected="true">Comic</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#sewa" type="button" role="tab" aria-controls="profile-tab-pane" aria-selected="false">Game</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#property-baru" type="button" role="tab" aria-controls="contact-tab-pane" aria-selected="false">Animation</button>
+                </li>
+                
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="jual" role="tabpanel" aria-labelledby="home-tab" tabindex="0">
+                  <div class="input-group mb-3 input-cari">
+                    <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="asset/genre.png" alt="" class="d-block d-lg-inline mx-auto">Genre</button>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Adventure</a></li>
+                      <li><a class="dropdown-item" href="#">Sci-fi</a></li>
+                      <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Another Genre</a></li>
+                    </ul>
+
+                    <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="asset/lang.png" alt="" class="d-block d-lg-inline mx-auto">Languange</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">Indonesia</a></li>
+                      <li><a class="dropdown-item" href="#">Germany</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Another Languange</a></li>
+                    </ul>
+
+                    <input type="text" class="form-control cari" aria-label="Text input with dropdown button" placeholder="Cari berdasarkan lokasi, ID, Properti">
+                    <button class="buttom-primary">Search</button>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="sewa" role="tabpanel" aria-labelledby="profile-tab" tabindex="0">
+                  <div class="input-group mb-3 input-cari">
+                    <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="asset/genre.png" alt="" class="d-block d-lg-inline mx-auto">Genre</button>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Adventure</a></li>
+                      <li><a class="dropdown-item" href="#">Sci-fi</a></li>
+                      <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Another Genre</a></li>
+                    </ul>
+
+                    <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="asset/lang.png" alt="" class="d-block d-lg-inline mx-auto">Languange</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">Indonesia</a></li>
+                      <li><a class="dropdown-item" href="#">Germany</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Another Languange</a></li>
+                    </ul>
+
+                    <input type="text" class="form-control cari" aria-label="Text input with dropdown button" placeholder="Cari berdasarkan lokasi, ID, Properti">
+                    <button class="buttom-primary">Search</button>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="property-baru" role="tabpanel" aria-labelledby="contact-tab" tabindex="0">
+                  <div class="input-group mb-3 input-cari">
+                    <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      <img src="asset/genre.png" alt="" class="d-block d-lg-inline mx-auto">Genre</button>
+
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Adventure</a></li>
+                      <li><a class="dropdown-item" href="#">Sci-fi</a></li>
+                      <li><a class="dropdown-item" href="#">Fantasy</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Another Genre</a></li>
+                    </ul>
+
+                    <button class="button-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><img src="asset/lang.png" alt="" class="d-block d-lg-inline mx-auto">Languange</button>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">English</a></li>
+                      <li><a class="dropdown-item" href="#">Indonesia</a></li>
+                      <li><a class="dropdown-item" href="#">Germany</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Another Languange</a></li>
+                    </ul>
+
+                    <input type="text" class="form-control cari" aria-label="Text input with dropdown button" placeholder="Cari berdasarkan lokasi, ID, Properti">
+                    <button class="buttom-primary">Search</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- rekomendasi section -->
+      <section id="rekomendasi">
+        <div class="container">
+          <div class="row">
+            <div class="rekomendasi col-12 text-center mb-5">
+              <h2>Our Merchandise</h2>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly rek">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="asset/titan.png" alt="">
+                <div class="card-body text-center ini-card">
+                  <h4>Cartoon Network Titans</h4>
+                  <p>$50</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly rek">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="asset/titan.png" alt="">
+                <div class="card-body text-center ini-card">
+                  <h4>Cartoon Network Titans</h4>
+                  <p>$50</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly rek">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="asset/titan.png" alt="">
+                <div class="card-body text-center ini-card">
+                  <h4>Cartoon Network Titans</h4>
+                  <p>$50</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly rek">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="asset/titan.png" alt="">
+                <div class="card-body text-center ini-card">
+                  <h4>Cartoon Network Titans</h4>
+                  <p>$50</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly rek">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="asset/titan.png" alt="">
+                <div class="card-body text-center ini-card">
+                  <h4>Cartoon Network Titans</h4>
+                  <p>$50</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 d-flex justify-content-evenly rek">
+              <div class="card p-2" style="width: 22rem;">
+                <img src="asset/titan.png" alt="">
+                <div class="card-body text-center ini-card">
+                  <h4>Cartoon Network Titans</h4>
+                  <p>$50</p>
+                </div>
+              </div>
+            </div>
+          
+          </div>
+        </div>
+      </section>
+
+      <!-- Fitur section -->
+      <section id="fitur" class="overflow-hidden">
+        <div class="container featured">
+          <div class="row roww">
+            <div class="col-lg-9 col-md-12 text-center text-lg-start">
+              <h2><img src="asset/Console.png" alt="" class="me-3">Featured Games</h2>
+            </div>
+
+            <div class="col-lg-3 col-md-12">
+              <button class="button-fitur">Check All Games <img src="asset/Vector (3).png" alt="" class="ms-4"></button>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="container position-relative">
+          <div class="row overflow-x-scroll">
+            <div class="col-12 d-flex justify-content-start">
+              <div class="card position-relative me-3" >
+                <img src="asset/mayhem.png" class="card-img-top" alt="...">
+                <div class="card-body cardd">
+                  <div class="alamak">
+                    <h5 class="card-title">Jellystone</h5>
+                  <p class="card-text">Mayhem</p>
+                  </div>
+                  
+                  <div class="end-0">
+                    <img src="asset/Console.png" alt="" class="d-flex justify-content-end">
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="card position-relative me-3" >
+                <img src="asset/doodle.png" class="card-img-top" alt="...">
+                <div class="card-body cardd">
+                  <div class="alamak">
+                    <h5 class="card-title">We Baby Bears</h5>
+                  <p class="card-text">Doodle Glide</p>
+                  </div>
+                  
+                  <div class="end-0">
+                    <img src="asset/Console.png" alt="" class="d-flex justify-content-end">
+                  </div>
+                </div>
+              </div>
+              
+              
+              <div class="card position-relative me-3" >
+                <img src="asset/doodle.png" class="card-img-top" alt="...">
+                <div class="card-body cardd">
+                  <div class="alamak">
+                    <h5 class="card-title">We Baby Bears</h5>
+                  <p class="card-text">Doodle Glide</p>
+                  </div>
+                  
+                  <div class="end-0">
+                    <img src="asset/Console.png" alt="" class="d-flex justify-content-end">
+                  </div>
+                </div>
+              </div>
+
+              <div class="card position-relative me-3" >
+                <img src="asset/rumble-bee.png" class="card-img-top" alt="...">
+                <div class="card-body cardd">
+                  <div class="alamak">
+                    <h5 class="card-title">DC</h5>
+                  <p class="card-text">Rumble Bee | TTG</p>
+                  </div>
+                  
+                  <div class="end-0">
+                    <img src="asset/Console.png" alt="" class="d-flex justify-content-end">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="button-arrow-left position-absolute start-0 top-50 translate-middle-y">
+            <img src="asset/row kiri.png" alt="">
+          </button>
+
+          <button class="button-arrow-right position-absolute end-0 top-50 translate-middle-y">
+            <img src="asset/row kanan.png" alt="">
+          </button>
+        </div>
+      </section>
+
+      <!-- Contact section -->
+      <section id="contact">
+        <div class="container-fluid v-100 overlay">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-6">
+                <h3 class="mb-3">
+                  Do you have any feedback? Feel Free to Contact Us!
+                </h3>
+
+                <div class="kontak">
+                  <h6>Contact</h6>
+                  <div class="mb-3">
+                    <img src="asset/loc.png" alt="">
+                    <a href="">Jl. Pelajar Pejuang 123 Majalaya Bandung 
+                      Indonesia</a>
+                  </div>
+
+                  <div class="mb-3">
+                    <img src="asset/telp.png" alt="">
+                    <a href="">022-6545-2041</a>
+                  </div>
+
+                  <div class="mb-3">
+                    <img src="asset/mail.png" alt="">
+                    <a href="">CartoonNetwork@gmail.com</a>
+                  </div>
+                </div>
+                <h6>Social Media</h6>
+                <a href="" class="me-3"><img src="asset/fb.png" alt=""></a>
+                <a href="" class="me-3"><img src="asset/twitter.png" alt=""></a>
+                <a href="" class="me-3"><img src="asset/ig.png" alt=""></a>
+              </div>
+
+              <div class="col-md-6">
+                <div class="card-kontak">
+                  <form action="">
+                    <h2>Any Question?</h2>
+
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control bg-color" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput" class="text-color">Email address</label>
+                    </div>
+
+                    <div class="form-floating mb-3">
+                      <input type="email" class="form-control bg-color" id="floatingInput" placeholder="name@example.com">
+                      <label for="floatingInput" class="text-color">Email address</label>
+                    </div>
+                    <button type="submit" class="button-kontak">Kirim</button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="d-flex align-items-center position-relative">
+        <div class="container-fluid">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-7 d-flex align-items-center justify-content-md-start justify-content-center mb-4">
+                <img src="asset/logo-cn (1).png" alt="">
+              </div>
+
+              <div class="col-md-5 d-flex justify-content-evenly">
+                <a href="">Home</a>
+                <a href="#layanan">Product</a>
+                <a href="#fitur">Feature</a>
+                <a href="#contact">Contact</a>
+                <a href="contact.html">Log In</a>
+              </div>
+            </div>
+
+            <div class="row copyright position-absolute start-50 translate-middle">
+              <div class="col-md-12">
+                <p class="text-center">&copy; Copyright by Kayla | All Right Reserved</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="my-script/script.js"></script>
+</body>
+</html>

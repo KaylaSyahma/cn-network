@@ -1,0 +1,598 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+:root {
+  --text-color: #434343;
+  --bg-icon: #676767;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: #f3fff4;
+}
+
+/* Z-Index */
+.navbar {
+  z-index: 3;
+  height: 80px;
+}
+
+.navbar img {
+  width: 75.578px;
+height: 51px;
+}
+
+.aksen-img {
+  z-index: 1;
+}
+
+* {
+  z-index: 2;
+}
+
+.img-hero {
+  z-index: 1;
+}
+
+/* Navbar color */
+.nav-color {
+  background-color: rgba(0, 0, 0, 0.6);
+  /* color: #000; */
+  transition: all ease-in-out 0.3s;
+}
+
+.bg-transparent {
+  transition: all ease-in-out 0.3s;
+}
+
+/* ini untuk navbar */
+.button-primary {
+  width: 133px;
+  height: 40px;
+  background-color: transparent;
+  color: #ffff;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+}
+
+.button-secondary {
+  width: 133px;
+  height: 40px;
+  background-color: #ffff;
+  color: var(--text-color);
+  border: none;
+  border-radius: 15px;
+}
+
+/* Hero section */
+#hero {
+  background: linear-gradient(113deg, #84B5EB 0.98%, #F17BA5 54.55%, #88C97A 104.24%);
+  height: 100vh;
+  width: 100%;
+}
+
+.hero-tagline h1 {
+  color: #fff;
+  font-size: 52px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72px;
+  width: 520px;
+}
+
+.hero-tagline p {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  width: 520px;
+}
+
+.button-lg-primary {
+  width: 237px;
+  height: 70px;
+  background-color: #fff;
+  color: var(--text-color);
+  border: none;
+  font-size: 16px;
+  font-weight: 700;
+  border-radius: 15px;
+}
+
+/* Ini layanan section */
+#layanan {
+  /* margin-bottom: 173px; */
+  background: #0D0F1E;
+  height: 90vh;
+  /* padding: 4rem 0; */
+}
+#layanan h2 {
+  color: white;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.sub-title {
+  color: white;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.card-layanan {
+  width: 100%;
+  height: 313px;
+  background: rgba(255, 255, 255, 0.50);
+  padding: 40px;
+  border-radius: 16.263px;
+  box-shadow: 0 0 7px 3px rgba(0, 0, 0, 0.5);
+  transition: .3s ease;
+}
+
+.circle-icon {
+  width: 70px;
+  height: 70px;
+  background-color: #2A2A2A;
+  border-radius: 50%;
+}
+
+.card-layanan h3 {
+  color: #2A2A2A;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.card-layanan p {
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* hover */
+
+.card-layanan:hover {
+  
+background: rgba(255, 255, 255, 0.91);
+box-shadow: 0px 7px 4.066px 0px rgba(255, 247, 247, 0.5);
+transform: translateY(-10px);
+
+}
+
+/* Search */
+#search {
+  background-image: url(asset/at-bg.svg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#search h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+}
+
+#search p {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.input-cari {
+  height: 88px;
+ 
+}
+
+.input-cari .button-secondary {
+  width: 200px;
+  height: 88px;
+  color: var(--bg-icon);
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 0px 0px 0px 9px;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2px);
+}
+
+.input-cari .buttom-primary {
+  background: rgba(139, 61, 108, 0.37);
+  width: 135px;
+  height: 88px;
+  border: none;
+  border-radius: 0 10px 0 10px;
+  font-size: 36px;
+  color: #fff;
+}
+
+.cari {
+  border-radius: 0px 0px 0px 9px;
+  background: rgba(255, 255, 255, 0.80);
+  backdrop-filter: blur(2px);
+}
+
+.nav-tabs {
+  border: none;
+}
+
+.nav-tabs .nav-link {
+  background-color: rgba(225, 225, 225, 0.5);
+  color: #000;
+  border: none;
+  border-radius: 0 0 0 0;
+}
+
+.nav-tabs .nav-link.active {
+  background: rgba(255, 255, 255, 0.80);
+  color: #2C4B47;
+  font-weight: 500;
+  border-radius: 9px 0 0 0;
+}
+
+/* Rekomendasi section */
+
+#rekomendasi {
+   background: #0D0F1E;
+}
+.card {
+  border: none;
+  transition: .3s;
+  width: 500px;
+}
+
+.card-body.ini-card {
+  display: block;
+}
+
+.ini-card h4 {
+  margin-bottom: 2rem;
+}
+
+.ini-card {
+  color: #000;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+
+.card-body {
+  display: flex;
+}
+
+.card-title {
+  color: #A8A5A8;
+font-size: 15.404px;
+font-weight: 600;
+line-height: normal;
+}
+
+.card-text {
+  color: #080008;
+font-size: 25.365px;
+font-weight: 700;
+line-height: normal;
+}
+
+.card-fasilitas {
+  background-color: #fff;
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 10px;
+}
+
+.card-fasilitas span {
+  font-weight: 500;
+  margin-top: 18px;
+  color: #000;
+}
+
+.card-fasilitas p {
+  font-size: 12px;
+}
+
+.card:hover {
+ transform: scale(1.04);
+  box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.25);
+  border: none;
+}
+
+.rekomendasi {
+  color: #F3FFF4;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+margin-top: 4rem;
+}
+
+/* Fitur section */
+
+#fitur {
+  /* background: var(--text-color); */
+  height: 100vh;
+  padding: 4rem 9%;
+  justify-content: center;
+  background: #0D0F1E;
+}
+#fitur h2 {
+  color: #fff;
+  font-size: 48px;
+  font-weight: 600;
+}
+.roww {
+  margin-top: 5rem;
+}
+
+.featured {
+  margin-bottom: 4rem;
+}
+
+
+.card-body img {
+  background: #080008;
+  padding: 15px;
+  justify-content: end;
+}
+
+
+.alamak h5 {
+  margin-top: 15px;
+}
+
+.alamak p {
+  color: #080008;
+font-size: 25.365px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 8px;
+}
+
+.button-fitur {
+  width: 238px;
+  height: 63px;
+  background: linear-gradient(180deg, #EC098C 0%, #EBBD64 173.66%);
+  border: none;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+  border-radius: 10px;
+}
+
+.cardd {
+  justify-content: space-between;
+}
+
+.button-arrow-left {
+  border: none;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  background: var(--text-color);
+  padding: 0;
+}
+
+.button-arrow-right {
+  border: none;
+  border-radius: 50%;
+  width: 61px;
+  height: 61px;
+  background: var(--text-color);
+  padding: 0;
+}
+
+/* Contact Section */
+
+#contact {
+  background-image: url(asset/bg-kontak.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* margin-top: 158px; */
+  /* height: 100vh; */
+}
+
+#contact .overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#contact .container {
+  padding: 148px 0 148px 0;
+}
+
+#contact h3 {
+  color: #fff;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+#contact h6 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.kontak a {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  text-decoration: none;
+  margin-left: 18px;
+  display: inline-block;
+}
+
+.card-kontak {
+  width: 100;
+  background: #fff;
+  width: 100%;
+  height: 445px;
+  padding: 52px 48px;
+  border-radius: 5px;
+}
+
+.card-kontak h2 {
+  color: var(--text-color);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: normal;
+  text-align: center;
+}
+
+.bg-color {
+  background: #c4c4c4;
+  border-radius: 0;
+  height: 75px !important;
+}
+
+.form-floating .text-color {
+  color: #717171;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.button-kontak {
+  width: 100%;
+  height: 75px;
+  border: none;
+  background-color: var(--bg-icon);
+  color: #fff;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  height: 270px;
+  background-color: #000;
+}
+
+footer a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: white;
+  font-size: 14px;
+  bottom: 1%;
+}
+
+/* responsive */
+
+@media screen and (max-width: 922px) {
+  .hero-tagline h1 {
+    line-height: 48px;
+  }
+
+  .hero-tagline p {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .card-layanan h3 {
+    font-size: 21px;
+  }
+
+  .card-layanan p {
+    font-size: 12px;
+  }
+
+  .input-cari .button-secondary {
+    width: 120px;
+    font-size: 14px;
+    border-radius: none;
+  }
+
+  .input-cari .button-primary {
+    font-size: 24px;
+    border-radius: 0 0 10px 10px !important;
+  }
+
+  #contact h3 {
+    font-size: 30px;
+    width: 100%;
+  }
+
+  .card-kontak {
+    width: 100;
+    height: auto;
+  }
+  
+  .card-kontak h2 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+    .img-hero {
+        width: 75%;
+        height: auto;
+    }
+
+    .hero-tagline h1 {
+        line-height: 52px;
+    }
+
+    h2 {
+        font-size: 34px;
+    }
+
+    .sub-title {
+        font-size: 16px;
+    }
+
+    #layanan {
+      height: auto;
+    }
+
+    .card-layanan {
+        margin: 15px 0 15px 0;
+    }
+
+    #search h2 {
+        font-size: 42px;
+        line-height: 52px;
+    }
+
+    #serch p {
+        font-size: 18px;
+        line-height: 24px;
+    }
+
+    .input-cari .button-secondary {
+        height: 60px;
+        width: 50%;
+        border-radius: 0;
+    }
+
+    .input-cari .buttom-primary {
+        height: 60px;
+        width: 30%;
+        font-size: 20px;
+        /* border-radius: 0; */
+        
+    }
+
+    .input-cari .form-control {
+        height: 60px;
+    }
+
+}
+
+@media screen and (max-width: 350px) {
+}
